@@ -233,10 +233,10 @@ if __name__ == "__main__":
     with Pool(28, maxtasksperchild=20) as pool:
 
         for s,t,results in pool.imap(do_transfer, target_source_tuple):
-            shap_vectors[s,t] = results
+            encoding_vectors[s,t] = results
             print("added {}-->{}".format(s,t))
             if s==(len(sorted_unique_datasets)-1):
-                save_object(shap_vectors, save_path)
+                save_object(encoding_vectors, save_path)
                 print("finished and saved target {}".format(t))
 
 
