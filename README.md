@@ -1,5 +1,5 @@
 # Source-Model-Selection
-A method of selecting the source model for transfer learning without using the source data. This code accompanies the paper ["Source Model Selection for Deep Learning in the Time Series Domain"](https://ieeexplore.ieee.org/document/8949507).
+A method of selecting the source model for transfer learning without using the source data. This code accompanies the paper ["Source Model Selection for Deep Learning in the Time Series Domain"](https://ieeexplore.ieee.org/document/8949507). For a high-level explaination see the blog post: https://amielmeiseles.medium.com/how-to-choose-the-best-source-model-for-transfer-learning-41d5c91c1338.
 
 The Transfer Learning experiments that calculated the ground truth performance of selecting various source models were run by [Fawaz et. al.](https://ieeexplore.ieee.org/abstract/document/8621990)
 We use some of their code for processing the UCR archive data which is available at: https://github.com/hfawaz/bigdata18
